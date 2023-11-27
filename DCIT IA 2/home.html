@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>UG DEPARTMENT OF COMPUTER SCIENCE</title>
+    <style>
+        /* Resetting default margin for body */
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: white;
+            color: #2C2A58;
+            text-align: center;
+            padding: 10px;
+
+        }
+
+        header img {
+            background-color: white;
+            padding: 10px;
+            width: 250px;
+        }
+
+        header p {
+            margin: 0; /* Remove default margin */
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #2C2A58;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        /* Video Section Styles */
+        #video-container {
+            position: relative;
+            height: 60vh;
+            overflow: hidden;
+        }
+
+        #video-background {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            z-index: 1;
+        }
+
+        /* Welcome Message Styles */
+        #welcome-message {
+            text-align: center;
+            background-color: white;
+            color: #2C2A58;
+        }
+        .image-container {
+            display: flex;
+        }
+
+        .image-container img {
+            width: 50%; /* Each image takes 50% of the container width */
+            height: auto; /* Maintain aspect ratio */
+            margin: 10px; /* Adjust the margin as needed */
+        }
+
+        #belowImage {
+            margin-top: 20px; /* Adjust the margin as needed */
+        }
+
+        .blue-text {
+            color: #2C2A58;
+        }
+        .content {
+            margin-bottom: 20px; /* Add space below this specific element */
+        }
+
+        section {
+            text-align: left;
+            padding: 20px;
+        }
+
+        section div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+        }
+
+        section img {
+            width: 50%;
+            height: auto;
+            margin: 10px; /* Adjust the margin as needed */
+        }
+
+        section a {
+            display: block;
+            margin: 10px;
+        }
+        footer {
+    background-color: #2C2A58;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px; /* Adjust the margin-top value as needed */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    max-width: 30%; /* Adjust the max-width as needed */
+    text-align: left;
+}
+.bottom-section {
+    width: 100%; /* Take up the full width of the container */
+    text-align: center; /* Align text at the center */
+    position: absolute;
+    bottom: -20px; /* Position it 20px above the bottom of the container */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="gallery/comScience_logo.png" alt="UG logo">
+        <strong><p>EMPOWERING MINDS, SHAPING FUTURES: WHERE INNOVATION MEETS CODING IN THE HEART</p> </strong>
+    </header>
+    
+
+    <!-- Navigation -->
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="faculty.html">FACULTY</a>
+        <a href="research-groups.html">RESEARCH GROUPS</a>
+        <a href="resources.html">RESOURCES</a>
+        <a href="event.html">EVENTS</a>
+        <a href="news.html">NEWS</a>
+        <a href="students.html">STUDENTS</a>
+        <a href="course structure.html">STAFF</a>
+        <a href="contact .html">CONTACT US</a>
+    </nav>
+
+    <!-- Video Section -->
+    <div id="video-container">
+        <video id="video-background" autoplay loop muted>
+            <source src="video-bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="text-overlay">
+            <h1>"UNLEASHING THE POWER OF CODE</h1>
+            <!-- Add other content as needed -->
+        </div>
+    </div>
+
+    <!-- Welcome Message -->
+    <div id="welcome-message">
+        <h2 class="blue-text">WELCOME TO THE COMPUTER SCIENCE DEPARTMENT</h2>
+        <strong>
+            <p class="blue-text">Hello and Welcome,</p>
+            <p class="blue-text">We're excited to welcome you to the vibrant community of the Computer Science Department at the University of Ghana. Here, we celebrate curiosity, innovation, and the limitless possibilities of technology.</p>
+            <p class="blue-text">Whether you're a budding coder, a tech enthusiast, or simply curious about the world of computing, you've found your academic home. Our dedicated faculty and cutting-edge programs are designed to inspire and empower you to thrive in the ever-evolving field of computer science.</p>
+            <p class="blue-text">Explore the limitless potential of technology with us. Let the coding adventures begin!</p>
+            <p class="blue-text">Best,<br>University of Ghana Computer Science Department</p>
+        </strong>
+    </div>
+
+    <!-- Departmental Events -->
+    <section id="events">
+        <div>
+            <h1>DEPARTMENTAL EVENTS</h1>
+
+            <img src="gallery/event1.jpg" alt="">
+            <a href="event.html"><strong>VIEW UPCOMING EVENTS</strong></a>
+
+            <!-- Add other content as needed -->
+
+            <h2>SHORT COURSES WE OFFER</h2>
+            <img src="gallery/event2.jpeg" alt="">
+            <a href="event.html"><strong>REGISTER NOW</strong></a>
+        </div>
+    </section>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+            color: #2C2A58
+        }
+
+        .contact-container {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #2C2A58;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-details {
+            margin-top: 20px;
+            text-align: left;
+        }
+        footer {
+    background-color: #2C2A58;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px; /* Adjust the margin-top value as needed */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    max-width: 30%; /* Adjust the max-width as needed */
+    text-align: left;
+}
+.bottom-section {
+    width: 100%; /* Take up the full width of the container */
+    text-align: center; /* Align text at the center */
+    position: absolute;
+    bottom: -20px; /* Position it 20px above the bottom of the container */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> CONTACT US</h1>
+        <img src="gallery/contact us.jpeg" alt="EVENTS">
+        <img src="gallery/Screenshot .png" alt="EVENTS">
+        
+    </header>
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>Feel free to get in touch with us using the form below. We'll get back to you as soon as possible.</p>
+
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="user-email">Your Email Address:</label>
+            <input type="email" id="user-email" name="user-email" placeholder="Optional">
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="contact-details">
+            <h3>Contact Details</h3>
+            <p><strong>Email:</strong> dcs.ug.edu.gh</p>
+            <p><strong>Telephone:</strong> +233 501 382 035, +233 559 145 698</p>
+            <p><strong>Location:</strong> University Of Ghana, Legon Campus, Opposite Mathematics Department</p>
+        </div>
+    </div>
+    <footer>
+        <h1>GET TO KNOW US</h1>
+        <div class="footer-content">
+            <div class="footer-section">
+            <strong><h1>Contact Us</h1>
+            <p>Phone & Email</p>
+            <p>+233 501 382 035</p>
+            <p>+233 559 145 698</p>
+            <p>dcs@ug.edu.gh</p></strong>
+            <strong><h1>Location</h1>
+                <p>University Of Ghana, Legon Campus</p>
+                <p>Opposite Mathematics Department</p></strong>
+        </div>
+        <div class="footer-section">
+           <strong><h1> <p>Academics</p></h1>
+            <p>Undergraduate Courses</p>
+            <p>Graduate Courses (MPhil Computer Science)</p>
+            <p>Graduate Courses (MSc Computer Science)</p>
+            <p>Graduate Courses (PhD)</p>
+            <p>Academic Calendar</p>
+            <p>Level 200 & 300 Timetable</p>
+            <p>Placements For Level 200 Students</p>
+            <p>Student Complaint Form</p></strong>
+        </div>
+        <div class="footer-section">
+           <strong> <h1><p>About The Department</p></h1>
+            <p>Introducing DCS</p>
+            <p>Head of Department's office</p>
+            <p>Faculty</p>
+            <p>Event</p> </strong>
+        </div>
+
+        <div class="bottom-section">
+        <div><strong><p>&copy; 2023 UG DEPARTMET OF COMPUTER SCIENCE. All rights reserved.</p></strong>
+        </div>
+
+</body>
+
+</html>
